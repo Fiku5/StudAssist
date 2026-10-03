@@ -1,0 +1,51 @@
+# Python environment & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables & secrets (CRITICAL: Do not commit keys!)
+.env
+*.env
+
+# Local temp & outputs
+temp/
+output/
+mock_repo/
+data/
+*.mp3
+*.wav
+*.png
+*.jpg
+*.jpeg
+
+# Testing & IDE
+.pytest_cache/
+.coverage
+htmlcov/
+.idea/
+.vscode/
+*.swp
+*.swo
